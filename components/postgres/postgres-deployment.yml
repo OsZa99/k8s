@@ -28,5 +28,3 @@ spec:
         - name: postgresdata
           persistentVolumeClaim:
             claimName: postgres-volume-claim
-
-# kubectl port-forward pod/postgres-85c8d755dc-6fxsj 15432:5432 la lancer pour se connecter à postgres
